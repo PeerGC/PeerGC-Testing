@@ -102,7 +102,8 @@ for i in range(NUMBER_OF_USERS):
         user = auth.create_user(
             email=email,
             password=password,
-            display_name=firstName, )
+            display_name=firstName,
+            photo_url=random.choice(photoURLs))
     except:
         print("an exception occurred")
         continue
@@ -127,7 +128,7 @@ for i in range(NUMBER_OF_USERS):
         u"Where_Can_You_Help_A_Student_Most": random.choice(helpMosts),
         u"Why_Did_You_Choose_The_College_You_Are_In": random.choice(whyYourColleges),
         u"What_Are_Your_Post_Grad_Aspirations": random.choice(postGradAspirationss),
-        u"What_Are_Your_Post_Grad_Aspirations": random.choice(whyYouWantBeCounselors),
+        u"Why_Do_You_Want_To_Be_A_Peer_Guidance_Counselor": random.choice(whyYouWantBeCounselors),
         u"What_Kind_Of_Student_Would_You_Be_Most_Excited_To_Mentor": random.choice(whichStudentTypes),
         u"What_Kind_Of_Degree_Are_You_Currently_Pursuing": random.choice(whichDegrees),
         u"First_Language": random.choice(firstLanguages)
