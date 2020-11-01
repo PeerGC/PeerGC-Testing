@@ -18,9 +18,7 @@ zipCodes = zipCodesFile.read().split("\n")
 zipCodesFile.close()
 
 # Photo_URL
-photoURLs = ["https://peaklife.in/wp-content/uploads/2019/06/elon-musk-image.jpg",
-             "https://observer.com/wp-content/uploads/sites/2/2020/01/elon-musk-twitter-advice.jpg?quality=80&strip",
-             "https://i.insider.com/5ddfa893fd9db26b8a4a2df7?width=1100&format=jpeg&auto=webp"]
+photoURLs = ["https://images.unsplash.com/photo-1518806118471-f28b20a1d79d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"]
 
 # First_Name
 firstNamesFile = open("firstNames.txt", "r")
